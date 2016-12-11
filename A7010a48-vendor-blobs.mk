@@ -21,6 +21,8 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A7010a48/pro
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A7010a48/proprietary/lib64,system/lib64)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A7010a48/proprietary/thh,system/thh)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A7010a48/proprietary/vendor,system/vendor)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/lenovo/A7010a48/proprietary/xbin,system/xbin)
